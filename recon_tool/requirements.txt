@@ -1,0 +1,10 @@
+aiohttp>=3.8
+beautifulsoup4>=4.12
+python-nmap>=0.7
+markdown>=3.4
+# sqlmap-api is optional; install only if SQLMap integration is desired
+sqlmap-api-client>=0.0.7 ; extra == "sqli"
+
+# Additional dependencies for extended features
+toml>=0.10
+PyYAML>=6.0

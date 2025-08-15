@@ -1,0 +1,11 @@
+http:
+  - "curl -I http://{target}:{port}"
+  - "nikto -h http://{target}:{port}"
+https:
+  - "curl -k -I https://{target}:{port}"
+ssh:
+  - "ssh {target} -p {port}"
+smb:
+  - "smbclient -L //{target} -N"
+ftp:
+  - "ftp {target} {port}"

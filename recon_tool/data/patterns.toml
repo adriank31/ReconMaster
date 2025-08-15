@@ -1,0 +1,27 @@
+
+[[patterns]]
+# Matches common password assignments like 'password=secret'
+regex = "(?i)password\\s*[:=]\\s*\\w+"
+label = "Password Pattern"
+severity = 5
+
+
+[[patterns]]
+# Matches API keys in various formats (api_key=abcdef123...)
+regex = "(?i)api[_-]?key\\s*[:=]\\s*[A-Za-z0-9]{20,}"
+label = "API Key"
+severity = 4
+
+
+[[patterns]]
+# Matches email addresses
+regex = "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b"
+label = "Email Address"
+severity = 3
+
+
+[[patterns]]
+# Detects directory listing pages
+regex = "index of /"
+label = "Directory Listing"
+severity = 2
