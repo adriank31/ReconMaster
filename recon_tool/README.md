@@ -1,10 +1,7 @@
 # Custom Reconnaissance Tool
 
 This package provides an original reconnaissance framework for network
-enumeration and vulnerability discovery.  It was built as an
-educational exercise inspired by the [`AutoRecon` project](https://github.com/Tib3rius/AutoRecon)
-but was designed from the ground up with a different architecture and feature
-set.  It should work on Linux systems (including Kali) with Python 3.8+
+enumeration and vulnerability discovery. It should work on Linux systems (including Kali) with Python 3.8+
 installed.
 
 ## Features
