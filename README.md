@@ -293,7 +293,7 @@ Only scan systems you own or have **explicit written permission** to test. Revie
 
 ### License
 
-Choose and add a license file that matches how you want others to use this tool (e.g., MIT, Apache-2.0, GPL-3.0).
+MIT
 
 ---
 
